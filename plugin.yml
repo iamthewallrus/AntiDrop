@@ -1,0 +1,13 @@
+name: AntiDrop
+version: '1.0'
+author: iamthewallrus
+main: com.github.iamthewallrus.antidrop.Main
+api-version: 1.16
+description: A plugin that took me 2 hours to make that nobody will even use.
+commands:
+  droptoggle:
+    usage: /droptoggle (enable|disable)
+    description: Toggles the drops
+    permission: droptoggle
+    aliases:
+      - antidrop
