@@ -11,3 +11,7 @@ commands:
     permission: droptoggle
     aliases:
       - antidrop
+permissions:
+  droptoggle:
+    default: op
+    description: Permission for the droptoggle command
