@@ -9,8 +9,7 @@ commands:
     usage: /droptoggle (enable|disable)
     description: Toggles the drops
     permission: droptoggle
-    aliases:
-      [antidrop, nodrop]
+    aliases: [antidrop, nodrop]
 permissions:
   droptoggle:
     default: op
