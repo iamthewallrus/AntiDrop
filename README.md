@@ -1,2 +1,6 @@
-This is the testing branch of AntiDrop.
-Most files here last ~5 minutes until being merged into the main branch.
+This is the main branch of AntiDrop.
+iamthewallrus is my GitHub account
+omgitsjayden is my SpigotMC account
+Astelsia is my YouTube account
+
+Cleared the confusion?
