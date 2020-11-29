@@ -10,7 +10,7 @@ commands:
     description: Toggles the drops
     permission: droptoggle
     aliases:
-      - antidrop
+      [antidrop, nodrop]
 permissions:
   droptoggle:
     default: op
