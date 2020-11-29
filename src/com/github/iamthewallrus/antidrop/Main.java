@@ -39,7 +39,7 @@ public class Main extends JavaPlugin implements TabExecutor, Listener {
  	@SuppressWarnings("unused")
 	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		
-		if(cmd.getName().equalsIgnoreCase("droptoggle") || cmd.getName().equalsIgnoreCase("antidrop")) {
+		if(cmd.getName().equalsIgnoreCase("droptoggle") || cmd.getName().equalsIgnoreCase("antidrop") || cmd.getName().equalsIgnoreCase("nodrop")) {
 			if(args.length == 1) {				
 				if(args[0].equalsIgnoreCase("enable") || args[0].equalsIgnoreCase("on")) {
 					enabled = true;
@@ -61,7 +61,7 @@ public class Main extends JavaPlugin implements TabExecutor, Listener {
 	
 	public List<String> onTabComplete(CommandSender s, Command cmd, String label, String[] args) {
 	
-	if(cmd.getName().equalsIgnoreCase("droptoggle") || cmd.getName().equalsIgnoreCase("antidrop")) {
+	if(cmd.getName().equalsIgnoreCase("droptoggle") || cmd.getName().equalsIgnoreCase("antidrop") || cmd.getName().equalsIgnoreCase("nodrop")) {
 		if(args.length == 1) {
 			List<String> tabArgs = new ArrayList<>(Arrays.asList("enable", "on", "disable", "off"));	
 		return tabArgs;
